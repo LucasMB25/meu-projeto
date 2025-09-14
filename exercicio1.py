@@ -1,6 +1,6 @@
 import cv2
 # Carregar imagem
-img = cv2.imread("exercicio12-09-25\imagem.jpg")
+img = cv2.imread("lucasmelo\imagem.jpg")
 # Exibir imagem em uma janela
 cv2.imshow("Minha Imagem", img)
 # Espera até pressionar uma tecla

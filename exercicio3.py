@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("exercicio12-09-25\imagem.jpg")
+img = cv2.imread("lucasmelo\imagem.jpg")
 # Reduz para metade
 small = cv2.resize(img, (0,0), fx=0.5, fy=0.5)
 # Aumenta para o dobro

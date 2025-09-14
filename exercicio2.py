@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("exercicio12-09-25\imagem.jpg")
+img = cv2.imread("lucasmelo\imagem.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 cv2.imshow("Colorida", img)
 cv2.imshow("Cinza", gray)

@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("exercicio12-09-25\imagem.jpg")
+img = cv2.imread("lucasmelo\imagem.jpg")
 # Selecionar região (y1:y2, x1:x2)
 roi = img[50:200, 100:300]
 cv2.imshow("Original", img)

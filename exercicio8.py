@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("exercicio12-09-25\imagem.jpg")
+img = cv2.imread("lucasmelo\imagem.jpg")
 gauss = cv2.GaussianBlur(img, (7,7), 0)
 median = cv2.medianBlur(img, 7)
 cv2.imshow("Original", img)

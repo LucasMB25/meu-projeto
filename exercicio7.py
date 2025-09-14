@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("exercicio12-09-25\imagem.jpg")
+img = cv2.imread("lucasmelo\imagem.jpg")
 # Rotação 90 graus
 rot90 = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
 # Rotação 45 graus em torno do centro

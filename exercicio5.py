@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("exercicio12-09-25\imagem.jpg")
+img = cv2.imread("lucasmelo\imagem.jpg")
 negativo = 255 - img
 cv2.imshow("Original", img)
 cv2.imshow("Negativo", negativo)
